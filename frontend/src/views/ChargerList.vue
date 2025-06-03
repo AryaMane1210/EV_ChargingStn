@@ -245,7 +245,7 @@ onMounted(() => {
   gap: 2rem;
   padding: 1rem 1.5rem;
   margin-bottom: 1rem;
-  background: #f5f7fa; /* soft background */
+  background: #f5f7fa; 
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   flex-wrap: wrap;

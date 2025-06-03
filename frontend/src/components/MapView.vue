@@ -10,14 +10,14 @@ import { onMounted, ref, watch } from 'vue';
 import L from 'leaflet';
 
 const props = defineProps({
-  chargers: Array // array of charger objects with location, name, etc.
+  chargers: Array 
 });
 
 const map = ref(null);
 const markers = ref([]);
 
 onMounted(() => {
-  map.value = L.map('map').setView([20, 0], 2); // initial world view
+  map.value = L.map('map').setView([20, 0], 2); 
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap contributors'
@@ -27,7 +27,7 @@ onMounted(() => {
 });
 
 function addMarkers() {
-  // Clear old markers
+
   markers.value.forEach(marker => map.value.removeLayer(marker));
   markers.value = [];
 
@@ -44,7 +44,7 @@ function addMarkers() {
   });
 }
 
-// If chargers update, update markers
+
 watch(() => props.chargers, () => {
   if (map.value) addMarkers();
 });
