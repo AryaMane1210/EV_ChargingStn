@@ -38,10 +38,15 @@ EV_ChargingStn/
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/AryaMane1210/EV_ChargingStn.git
-cd EV_ChargingStn  ```
+cd EV_ChargingStn  
 ```
 ### 2. Set Up the Backend
 cd backend
 npm install
+
+```
+### 3. Create a .env file inside the backend/ directory:
+
+
 
 
