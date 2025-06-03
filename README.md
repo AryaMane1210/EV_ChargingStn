@@ -61,5 +61,17 @@ npm install
 npm run dev
 ```
 
+### API Endpoints (Backend)
+POST /api/auth/signup – Register new users
+POST /api/auth/login – Log in existing users
+GET /api/chargers – Fetch charger station data
+DELETE /api/:id - Deletes a charger station
+Updation of details of a charger
+
+### Deployment Link
+```
+ev-charging-stn-adwz-nh6vypzfr-aryamane1210s-projects.vercel.app
+```
+
 
 
