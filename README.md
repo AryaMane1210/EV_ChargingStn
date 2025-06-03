@@ -15,20 +15,7 @@ An end-to-end web application that allows users to sign up, log in, and view EV 
 
 ## 🚀 Project Structure
 
-EV_ChargingStn/
-│
-├── backend/
-│ ├── models/
-│ ├── routes/
-│ ├── controllers/
-│ ├── .env
-│ └── index.js
-│
-└── frontend/
-├── src/
-├── public/
-├── vite.config.js
-└── main.js
+<pre> ``` project-name/ ├── backend/ │ ├── controllers/ │ ├── models/ │ ├── routes/ │ ├── .env │ ├── server.js ├── frontend/ │ ├── public/ │ ├── src/ │ │ ├── components/ │ │ ├── views/ │ │ ├── App.vue │ │ └── main.js ├── README.md ├── package.json ``` </pre>
 
 ---
 
