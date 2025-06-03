@@ -41,12 +41,25 @@ git clone https://github.com/AryaMane1210/EV_ChargingStn.git
 cd EV_ChargingStn  
 ```
 ### 2. Set Up the Backend
+```bash
 cd backend
 npm install
-
 ```
 ### 3. Create a .env file inside the backend/ directory:
-
+```bash
+MONGO_URI=your_mongodb_connection_string
+PORT=10000
+```
+### 4. ▶ Start the Backend
+```bash
+npm start
+```
+### 5. Set Up the Frontend
+```bash
+cd ../frontend
+npm install
+npm run dev
+```
 
 
 
