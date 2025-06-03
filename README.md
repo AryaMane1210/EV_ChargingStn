@@ -36,7 +36,7 @@ EV_ChargingStn/
 ## 🧑‍💻 Local Setup
 
 ### 1. Clone the Repository
-
+```bash
 git clone https://github.com/AryaMane1210/EV_ChargingStn.git
 cd EV_ChargingStn
 
